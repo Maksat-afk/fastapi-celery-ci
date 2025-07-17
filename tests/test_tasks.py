@@ -1,4 +1,4 @@
-from app.tasks import add, subtract
+from app.math_utils import add, subtract
 
 def test_add():
     assert add(3, 4) == 7
